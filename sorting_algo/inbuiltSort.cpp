@@ -11,6 +11,7 @@ int main(){
   int n = sizeof(arr) / sizeof(int);
 
   sort(arr, arr + n, compare);
+  // sort(arr, arr + n, greater<int>());
   // reverse(arr, arr+n);
   // print all the output
   for(int x: arr){
